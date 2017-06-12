@@ -2,7 +2,9 @@ __pycache__
 db.sqlite3
 /media
 /static
+/h2me/static
 /templates
+000*
 
 node_modules
 bower_components
