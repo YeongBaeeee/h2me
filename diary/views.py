@@ -1,3 +1,7 @@
+# diary/views.py
+
 from django.shortcuts import render
 
-# Create your views here.
+
+def diary_list(request):
+    return render(request, 'diary/index.html')
