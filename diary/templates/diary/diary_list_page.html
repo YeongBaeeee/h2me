@@ -1,0 +1,9 @@
+{% load el_pagination_tags %}
+
+{% paginate diary_list %}
+{% for diary in diary_list %}
+    {# your code to show the entry #}
+    {{ diary.content }}
+    {{ diary.id }}
+{% endfor %}
+{% show_more %}
